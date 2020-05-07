@@ -1,0 +1,837 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="./css/normolize.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/media-style.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,600,700,900&display=swap&subset=cyrillic"
+    rel="stylesheet">
+  <link rel="stylesheet" href="./libs/owlcarusel2/assets/owl.carousel.min.css">
+  <link rel="stylesheet" href="./libs/owlcarusel2/assets/owl.theme.default.css">
+  <title>Лодки LUND в России</title>
+</head>
+
+<body>
+  <section class="main-block">
+    <ul class="m-menu">
+      <li class="close-menu">&times;</li>
+      <li><a href="#boatLund" class="m-menu-link">Модельный ряд</a></li>
+      <li><a href="#specOfferBoats" class="m-menu-link">Спецпреложения</a></li>
+      <li><a href="#advantageLund" class="m-menu-link">Почему LUND</a></li>
+      <li><a href="/contacts.html" class="m-menu-link">Контакты</a></li>
+      <li><a href="" class="m-menu-link get-st-btn-m open-model-window">Обратный звонок</a></li>
+    </ul>
+    <video class="video-bg-1" loop preload="metadata" muted="muted" playsinline poster>
+      <source src="./video/Impact-XS-Page-Header.webm" type="video/webm">
+        <!-- WebM/VP8 для Firefox4, Opera, и Chrome -->
+      <source src="./video/Impact-XS-Page-Header.mp4" type="video/mp4">
+      <!-- MP4 для Safari, IE9, iPhone, iPad, Android, и Windows Phone 7 -->
+    </video>
+    <header>
+      <div class="header-container">
+        <div class="logo">
+          <a href="/index.html"><img src="./image/logo_lund.png" alt="logo"></a>
+        </div>
+        <div class="iconMobMenu">
+          <a href="#"><img src="./image/logo/logo-m-menu.png" alt=""></a>
+        </div>
+        <nav>
+          <ul>
+            <li class="menu-link"><a href="#boatLund">Модельный ряд</a></li>
+            <li class="menu-link"><a href="#specOfferBoats">Спецпреложения</a></li>
+            <li class="menu-link"><a href="#advantageLund">Почему LUND</a></li>
+            <li class="menu-link"><a href="/contacts.html">Контакты</a></li>
+            <li class="menu-link call-back open-model-window">
+              <svg id="svg-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                <g>
+                  <g>
+                    <path fill="#ffffff"
+                      d="M12 1.5C6.21 1.5 1.5 6.21 1.5 12c0 5.789 4.71 10.5 10.5 10.5 5.789 0 10.5-4.711 10.5-10.5 0-5.79-4.711-10.5-10.5-10.5 0 0 5.789 0 0 0zM12 0c6.627 0 12 5.373 12 12s-5.373 12-12 12S0 18.627 0 12 5.373 0 12 0zm6.337 17.51l-.961.96c-.171.171-.674.278-.69.278a11.341 11.341 0 0 1-8.117-3.317A11.354 11.354 0 0 1 5.25 7.286c0-.001.11-.489.281-.66l.961-.96c.352-.353 1.027-.513 1.5-.355l.202.068c.472.158.967.68 1.097 1.16l.484 1.774c.13.482-.045 1.168-.397 1.52l-.642.64a6.813 6.813 0 0 0 4.792 4.793l.642-.64c.352-.354 1.038-.53 1.518-.4l1.774.485c.48.132 1.002.624 1.16 1.096l.068.205c.157.472-.002 1.147-.353 1.497z" />
+                  </g>
+                </g>
+              </svg>
+              <a class="open-model-window">Обратный звонок</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <!-- Modal window Call Back -->
+    <div id="open-modal" class="modal-window">
+      <div>
+        <svg class="iconClose" height="20px" version="1.1" viewBox="0 0 512 512" width="20px" xml:space="preserve"
+          xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+          <path fill='#96050b'
+            d="M443.6,387.1L312.4,255.4l131.5-130c5.4-5.4,5.4-14.2,0-19.6l-37.4-37.6c-2.6-2.6-6.1-4-9.8-4c-3.7,0-7.2,1.5-9.8,4  L256,197.8L124.9,68.3c-2.6-2.6-6.1-4-9.8-4c-3.7,0-7.2,1.5-9.8,4L68,105.9c-5.4,5.4-5.4,14.2,0,19.6l131.5,130L68.4,387.1  c-2.6,2.6-4.1,6.1-4.1,9.8c0,3.7,1.4,7.2,4.1,9.8l37.4,37.6c2.7,2.7,6.2,4.1,9.8,4.1c3.5,0,7.1-1.3,9.8-4.1L256,313.1l130.7,131.1  c2.7,2.7,6.2,4.1,9.8,4.1c3.5,0,7.1-1.3,9.8-4.1l37.4-37.6c2.6-2.6,4.1-6.1,4.1-9.8C447.7,393.2,446.2,389.7,443.6,387.1z" />
+        </svg>
+        <div class="call-back-contentModalWindow">
+          <h2>Заказ обратного звонка</h2>
+          <p>Будем рады ответить на все ваши вопросы и помочь с выбором катера!</p>
+          <div>
+            <form id='call-back-form' class='modal-window-form' action="">
+              <input type="text" name="name" placeholder="Имя">
+              <input type="tel" name="telephone-num" placeholder="Телефон">
+              <button type="submit">ОТПРАВИТЬ</button>
+              <p class="success-message-form">Отправлено!</p>
+              <p class="unsuccessfully-message-form">Что-то пошло не так... Попробуйте позднее!</p>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="heading-main">
+      <img id="lund-image-svg" src="./image/vectorpaint.d.svg" alt="">
+      <h1>Премиум катера для рыбалки и отдыха</h1>
+    </div>
+    <div class="scrollAnimationMouse">
+      <div>
+        <img class='arrow-down' src="./image\logo\icon-arrow-down.png">
+      </div>
+    </div>
+  </section>
+  <section>
+
+    <!-- Слайдер-->
+    <div id='owl-one' class="owl-carousel owl-theme">
+      <div class="owl-slide-main">
+        <div class="contentSlide">
+          <div class="boatMainInformation">
+            <div>
+              <span class="modelBoatBoatMainInformation">2275 BARON</span>
+              <span class="titleBoatBoatMainInformation">Большая лодка для хорошей
+                компании</span>
+              <div class="specBoatMainInformation">
+                <p>350 л/с.</p>
+                <p>6,94 м длина</p>
+                <p>2,59 м ширина</p>
+              </div>
+            </div>
+          </div>
+          <p>Флагман среди рыболовных моделей легендарный 2275 Lund Baron прекрасно подходит для озера любого
+            размера. Вместительные рундуки, много кресел и удобных опций для рыбалки, всё что нужно для
+            длительной поездки и переменчивой погоды. В этих, без малого, 7 метрах лодки хватит места
+            капитану, его друзьям и родственникам. Вряд ли можно подобрать аналог этому рыболовному судну.
+          </p>
+        </div>
+      </div>
+      <div class="bannerLundPROV">
+        <div class="mainspecBannerLundPROV">
+          <div>
+            <span>1875 Lund<br>
+              Pro V</span>
+            <p>добро пожаловать в лигу<br>профессионалов
+            </p>
+            <div>
+              <p>350 л/с</p>
+              <p>6,94 м длина</p>
+              <p>2,59 м ширина</p>
+            </div>
+          </div>
+        </div>
+        <div class="featuresBannerLundPROV">
+          <div class="blockBannerLundPROV noneBorder">
+            <div>
+              <span>LIVEWELL</span>
+              <p>От нашего самого основного газированного livewell, к увеличьте livewell с впрыской и
+                рециркуляцией свежего воздуха Макс-воздуха, к нашему окончательному увеличьте плюс
+                Livewell, мы имеем вариант для каждого типа рыбаков.</p>
+            </div>
+          </div>
+          <div class="blockBannerLundPROV">
+            <div>
+              <span>ХРАНЕНИЕ</span>
+              <p>Вы всегда можете использовать больше хранения на воде. В Lund, мы предназначены к
+                обеспечивать новаторские отсеки для хранения. От стержневых шкафчиков до складов для
+                хранения гирлянд, у нас есть вы охвачены.</p>
+            </div>
+          </div>
+          <div class="blockBannerLundPROV">
+            <div>
+              <span>IPS2</span>
+              <p>Запатентованный корпус IPS2 lund's дает вашей лодке фантастическую способность к
+                поворотам и контролю. Острые, широкие обратные киты получают вас на плоскости быстро с
+                минимальным подъемом смычка.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="impactXS">
+        <div class="blockImpactXS">
+          <div class="contentImpactXS">
+            <span>Impact xs</span>
+            <div>
+              <div class="borderContentImpactXS" style="padding-left: 0;">1875</div>
+              <div class="borderContentImpactXS">2025</div>
+              <div class="borderContentImpactXS">1775</div>
+              <div>1675</div>
+            </div>
+            <p>Эта рыболовная лодка легко трансформируется для отдыха с близкими. Заядлые рыбаки оценят
+              центральный рундук для спиннингов с замком, продуманную палубу, аэраторы для рыбы и живца,
+              много опций.
+            </p>
+            <p> В то же время, стойка для буксировки лыжника, запасные складные сидения и лестница на корме
+              позволят вам разделить отдых с друзьями.</p>
+            <img class="arrowImpactXs" src="./image/logo/arrowBanner.svg" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="owl-nav-new">
+      <div class="am-next"></div>
+      <div class="am-prev"></div>
+    </div>
+  </section>
+
+  <section id='boatLund' class="section-boats-models">
+    <div class="header-container-models">
+      <div class="head-models">
+        <div class="heading-models">
+          <h2>Модельный ряд</h2>
+        </div>
+        <div class="filter-models">
+          <ul>
+            <li><a class="filter" data-filter='all'>Все</a></li>
+            <li><a class="filter" data-filter='.coreFishing'>Core Fishing</a></li>
+            <li><a class="filter" data-filter='.fishAndSport'>Fish And Sport</a></li>
+            <li><a class="filter" data-filter='.utilityAndHunting'>Utility And Hunting</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="boats-models">
+      <div class="row-boats-models">
+        <div class="mix coreFishing card-boat-models">
+          <div class="front-card-boat">
+            <div class="blockimgFrontCard">
+              <img src="./image/models-boats/Слой-11.png" alt="">
+            </div>
+            <span class="nameModelCardBoat">Baron</span>
+            <p>Looking for the perfect big water aluminum fishing boat? The legendary 2275 Lund Baron is our
+              flagship fishing boat model.</p>
+            <div class="btn-button-card-boat"></div>
+            <img class="button-card-boat" src="./image/models-boats/menu.png" alt="">
+          </div>
+          <div class="back-card-boat">
+            <span class="nameModelCardBoat">Baron</span>
+            <div class="infoModelBoat" style="width: 80%;">
+              <div class="p-container">
+                <span>1975</span>
+                <p>18' 10"</p>
+                <p>135-200 л. с.</p>
+              </div>
+              <hr>
+              <div class="p-container">
+                <span>1975</span>
+                <p>18' 10"</p>
+                <p>135-200 л. с.</p>
+              </div>
+              <hr>
+              <div class="p-container">
+                <span>1975</span>
+                <p>18' 10"</p>
+                <p>135-200 л. с.</p>
+              </div>
+              <hr>
+              <div class="p-container">
+                <span>1975</span>
+                <p>18' 10"</p>
+                <p>135-200 л. с.</p>
+              </div>
+              <hr>
+            </div>
+            <img class="button-card-boat" src="./image/models-boats/menu.png" alt="">
+          </div>
+        </div>
+        <div class="mix fishAndSport card-boat-models">
+          <div class="front-card-boat">
+            <div class="blockimgFrontCard">
+              <img src="./image/models-boats/Слой-11.png" alt="">
+            </div>
+            <span class="nameModelCardBoat">Baron</span>
+            <p>Looking for the perfect big water aluminum fishing boat? The legendary 2275 Lund Baron is our
+              flagship fishing boat model.</p>
+            <img class="button-card-boat" src="./image/models-boats/menu.png" alt="">
+          </div>
+          <div class="back-card-boat">
+            <span class="nameModelCardBoat">Baron</span>
+            <div class="infoModelBoat" style="width: 80%;">
+              <div class="p-container">
+                <span>1975</span>
+                <p>18' 10"</p>
+                <p>135-200 л. с.</p>
+              </div>
+              <hr>
+              <div class="p-container">
+                <span>1975</span>
+                <p>18' 10"</p>
+                <p>135-200 л. с.</p>
+              </div>
+              <hr>
+              <div class="p-container">
+                <span>1975</span>
+                <p>18' 10"</p>
+                <p>135-200 л. с.</p>
+              </div>
+              <hr>
+              <div class="p-container">
+                <span>1975</span>
+                <p>18' 10"</p>
+                <p>135-200 л. с.</p>
+              </div>
+              <hr>
+            </div>
+            <img class="button-card-boat" src="./image/models-boats/menu.png" alt="">
+          </div>
+        </div>
+        <div class="mix fishAndSport card-boat-models">
+          <div class="front-card-boat">
+            <div class="blockimgFrontCard">
+              <img src="./image/models-boats/Слой-11.png" alt="">
+            </div>
+            <span class="nameModelCardBoat">Baron</span>
+            <p>Looking for the perfect big water aluminum fishing boat? The legendary 2275 Lund Baron is our
+              flagship fishing boat model.</p>
+            <img class="button-card-boat" src="./image/models-boats/menu.png" alt="">
+          </div>
+          <div class="back-card-boat">
+            <span class="nameModelCardBoat">Baron</span>
+            <div class="infoModelBoat" style="width: 80%;">
+              <div class="p-container">
+                <span>1975</span>
+                <p>18' 10"</p>
+                <p>135-200 л. с.</p>
+              </div>
+              <hr>
+              <div class="p-container">
+                <span>1975</span>
+                <p>18' 10"</p>
+                <p>135-200 л. с.</p>
+              </div>
+              <hr>
+              <div class="p-container">
+                <span>1975</span>
+                <p>18' 10"</p>
+                <p>135-200 л. с.</p>
+              </div>
+              <hr>
+              <div class="p-container">
+                <span>1975</span>
+                <p>18' 10"</p>
+                <p>135-200 л. с.</p>
+              </div>
+              <hr>
+            </div>
+            <img class="button-card-boat" src="./image/models-boats/menu.png" alt="">
+          </div>
+        </div>
+        <div class="mix fishAndSport card-boat-models">
+          <div class="front-card-boat">
+            <div class="blockimgFrontCard">
+              <img src="./image/models-boats/Слой-11.png" alt="">
+            </div>
+            <span class="nameModelCardBoat">Baron</span>
+            <p>Looking for the perfect big water aluminum fishing boat? The legendary 2275 Lund Baron is our
+              flagship fishing boat model.</p>
+            <img class="button-card-boat" src="./image/models-boats/menu.png" alt="">
+          </div>
+          <div class="back-card-boat">
+            <span class="nameModelCardBoat">Baron</span>
+            <div class="infoModelBoat" style="width: 80%;">
+              <div class="p-container">
+                <span>1975</span>
+                <p>18' 10"</p>
+                <p>135-200 л. с.</p>
+              </div>
+              <hr>
+              <div class="p-container">
+                <span>1975</span>
+                <p>18' 10"</p>
+                <p>135-200 л. с.</p>
+              </div>
+              <hr>
+              <div class="p-container">
+                <span>1975</span>
+                <p>18' 10"</p>
+                <p>135-200 л. с.</p>
+              </div>
+              <hr>
+              <div class="p-container">
+                <span>1975</span>
+                <p>18' 10"</p>
+                <p>135-200 л. с.</p>
+              </div>
+              <hr>
+            </div>
+            <img class="button-card-boat" src="./image/models-boats/menu.png" alt="">
+          </div>
+        </div>
+        <div class="mix fishAndSport card-boat-models">
+          <div class="front-card-boat">
+            <div class="blockimgFrontCard">
+              <img src="./image/models-boats/Слой-11.png" alt="">
+            </div>
+            <span class="nameModelCardBoat">Baron</span>
+            <p>Looking for the perfect big water aluminum fishing boat? The legendary 2275 Lund Baron is our
+              flagship fishing boat model.</p>
+            <img class="button-card-boat" src="./image/models-boats/menu.png" alt="">
+          </div>
+          <div class="back-card-boat">
+            <span class="nameModelCardBoat">Baron</span>
+            <div class="infoModelBoat" style="width: 80%;">
+              <div class="p-container">
+                <span>1975</span>
+                <p>18' 10"</p>
+                <p>135-200 л. с.</p>
+              </div>
+              <hr>
+              <div class="p-container">
+                <span>1975</span>
+                <p>18' 10"</p>
+                <p>135-200 л. с.</p>
+              </div>
+              <hr>
+              <div class="p-container">
+                <span>1975</span>
+                <p>18' 10"</p>
+                <p>135-200 л. с.</p>
+              </div>
+              <hr>
+              <div class="p-container">
+                <span>1975</span>
+                <p>18' 10"</p>
+                <p>135-200 л. с.</p>
+              </div>
+              <hr>
+            </div>
+            <img class="button-card-boat" src="./image/models-boats/menu.png" alt="">
+          </div>
+        </div>
+        <div class="mix fishAndSport card-boat-models">
+          <div class="front-card-boat">
+            <div class="blockimgFrontCard">
+              <img src="./image/models-boats/Слой-11.png" alt="">
+            </div>
+            <span class="nameModelCardBoat">Baron</span>
+            <p>Looking for the perfect big water aluminum fishing boat? The legendary 2275 Lund Baron is our
+              flagship fishing boat model.</p>
+            <img class="button-card-boat" src="./image/models-boats/menu.png" alt="">
+          </div>
+          <div class="back-card-boat">
+            <span class="nameModelCardBoat">Baron</span>
+            <div class="infoModelBoat" style="width: 80%;">
+              <div class="p-container">
+                <span>1975</span>
+                <p>18' 10"</p>
+                <p>135-200 л. с.</p>
+              </div>
+              <hr>
+              <div class="p-container">
+                <span>1975</span>
+                <p>18' 10"</p>
+                <p>135-200 л. с.</p>
+              </div>
+              <hr>
+              <div class="p-container">
+                <span>1975</span>
+                <p>18' 10"</p>
+                <p>135-200 л. с.</p>
+              </div>
+              <hr>
+              <div class="p-container">
+                <span>1975</span>
+                <p>18' 10"</p>
+                <p>135-200 л. с.</p>
+              </div>
+              <hr>
+            </div>
+            <img class="button-card-boat" src="./image/models-boats/menu.png" alt="">
+          </div>
+        </div>
+        <div class="mix fishAndSport card-boat-models">
+          <div class="front-card-boat">
+            <div class="blockimgFrontCard">
+              <img src="./image/models-boats/Слой-11.png" alt="">
+            </div>
+            <span class="nameModelCardBoat">Baron</span>
+            <p>Looking for the perfect big water aluminum fishing boat? The legendary 2275 Lund Baron is our
+              flagship fishing boat model.</p>
+            <img class="button-card-boat" src="./image/models-boats/menu.png" alt="">
+          </div>
+          <div class="back-card-boat">
+            <span class="nameModelCardBoat">Baron</span>
+            <div class="infoModelBoat" style="width: 80%;">
+              <div class="p-container">
+                <span>1975</span>
+                <p>18' 10"</p>
+                <p>135-200 л. с.</p>
+              </div>
+              <hr>
+              <div class="p-container">
+                <span>1975</span>
+                <p>18' 10"</p>
+                <p>135-200 л. с.</p>
+              </div>
+              <hr>
+              <div class="p-container">
+                <span>1975</span>
+                <p>18' 10"</p>
+                <p>135-200 л. с.</p>
+              </div>
+              <hr>
+              <div class="p-container">
+                <span>1975</span>
+                <p>18' 10"</p>
+                <p>135-200 л. с.</p>
+              </div>
+              <hr>
+            </div>
+            <img class="button-card-boat" src="./image/models-boats/menu.png" alt="">
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <div class="bannerHistoryLund">
+      <h2>спроектированы для вас</h2>
+      <p>Высокие инженерные технологии сделали катера с совершенным
+        балансом качества и прочности</p>
+      <button>история lund</button>
+    </div>
+    <section id='specOfferBoats' class="specOfferBoats">
+      <div class="header-container-models">
+        <div class="head-models">
+          <div class="heading-models">
+            <h2>Пакетные предложения</h2>
+            <p>Пакетное предложение действует на покупку лодки с мотором в представленных комплектациях</p>
+          </div>
+          <div class="filter-models">
+            <ul>
+              <li><a class="filter-2" data-filter='all'>Все модели</a></li>
+              <li><a class="filter-2" data-filter=".inStock">В наличии</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="spec-boats-models">
+          <div class="row-boats-models">
+            <div class="mix cardcomparisonBoats">
+              <div class="namePackageSpecOffer"><span>Премиум</span></div>
+              <img src="./image/models-boats/proV1975.png" alt="">
+              <div class="modelCardcomparisonBoats"><span>Baron 1975</span></div>
+              <div class="specCardcomparisonBoats">
+                <p>350 л/с макс.мощность</p>
+                <p>6,94 м длина</p>
+                <p>2,59 м ширина</p>
+              </div>
+              <div class="priceSpecOffer">
+                <p>1255652 ₽</p>
+                <p>11556344 ₽</p>
+              </div>
+              <button>Подробнее</button>
+            </div>
+            <div class="mix inStock cardcomparisonBoats">
+              <div class="namePackageSpecOffer"><span>Fish & Sport</span></div>
+              <img src="./image/models-boats/prov2175.jpg" alt="">
+              <div class="modelCardcomparisonBoats"><span>PRO-V 1975</span></div>
+              <div class="specCardcomparisonBoats">
+                <p>350 л/с макс.мощность</p>
+                <p>6,94 м длина</p>
+                <p>2,59 м ширина</p>
+              </div>
+              <div class="priceSpecOffer">
+                <p>1255652 ₽</p>
+                <p>11556344 ₽</p>
+              </div>
+              <button>Подробнее</button>
+            </div>
+            <div class="mix cardcomparisonBoats">
+              <div class="namePackageSpecOffer"><span>Sport</span></div>
+              <img src="./image/models-boats/proV1975.png" alt="">
+              <div class="modelCardcomparisonBoats"><span>PRO-V 1975</span></div>
+              <div class="specCardcomparisonBoats">
+                <p>350 л/с макс.мощность</p>
+                <p>6,94 м длина</p>
+                <p>2,59 м ширина</p>
+              </div>
+              <div class="priceSpecOffer">
+                <p>1255652 ₽</p>
+                <p>11556344 ₽</p>
+              </div>
+              <button>Подробнее</button>
+            </div>
+            <div class="mix inStock cardcomparisonBoats">
+              <div class="namePackageSpecOffer"><span>Sport</span></div>
+              <img src="./image/models-boats/prov1875.jpg" alt="">
+              <div class="modelCardcomparisonBoats"><span>PRO-V 1975</span></div>
+              <div class="specCardcomparisonBoats">
+                <p>350 л/с макс.мощность</p>
+                <p>6,94 м длина</p>
+                <p>2,59 м ширина</p>
+              </div>
+              <div class="priceSpecOffer">
+                <p>1255652 ₽</p>
+                <p>11556344 ₽</p>
+              </div>
+              <button>Подробнее</button>
+            </div>
+            <div class="mix cardcomparisonBoats">
+              <img src="./image/models-boats/prov1875.jpg" alt="">
+              <div class="modelCardcomparisonBoats"><span>PRO-V 1975</span></div>
+              <div class="specCardcomparisonBoats">
+                <p>350 л/с макс.мощность</p>
+                <p>6,94 м длина</p>
+                <p>2,59 м ширина</p>
+              </div>
+              <div class="priceSpecOffer">
+                <p>1255652 ₽</p>
+                <p>11556344 ₽</p>
+              </div>
+              <button>Подробнее</button>
+            </div>
+            <div class="mix cardcomparisonBoats">
+              <img src="./image/models-boats/prov1875.jpg" alt="">
+              <div class="modelCardcomparisonBoats"><span>PRO-V 1975</span></div>
+              <div class="specCardcomparisonBoats">
+                <p>350 л/с макс.мощность</p>
+                <p>6,94 м длина</p>
+                <p>2,59 м ширина</p>
+              </div>
+              <div class="priceSpecOffer">
+                <p>1255652 ₽</p>
+                <p>11556344 ₽</p>
+              </div>
+              <button>Подробнее</button>
+            </div>
+            <div class="mix cardcomparisonBoats">
+              <img src="./image/models-boats/prov1875.jpg" alt="">
+              <div class="modelCardcomparisonBoats"><span>PRO-V 1975</span></div>
+              <div class="specCardcomparisonBoats">
+                <p>350 л/с макс.мощность</p>
+                <p>6,94 м длина</p>
+                <p>2,59 м ширина</p>
+              </div>
+              <div class="priceSpecOffer">
+                <p>1255652 ₽</p>
+                <p>11556344 ₽</p>
+              </div>
+              <button>Подробнее</button>
+            </div>
+          </div>
+        </div>
+    </section>
+    <div class="professionalHelp">
+      <h2>Требуется помощь специалиста?</h2>
+      <p>Будем рады ответить на все ваши вопросы и помочь с выбором!</p>
+      <div>
+        <form id='professionalhelp' action="">
+          <input type="text" name="name" placeholder="Имя">
+          <input type="tel" name="telephone-num" placeholder="Телефон">
+          <button>ОТПРАВИТЬ</button>
+        </form>
+      </div>
+    </div>
+    <section id='advantageLund' class="advantageLund">
+      <h2>Баланс прочности и надежности</h2>
+      <div class="contentadvantageLund">
+        <div class="blockContentAdvantageLund">
+          <img src="./image/banners/ips-advantage.jpg" alt="">
+          <div class="descriptionAdvantageLund">
+            <h3>Непревзойденная производительность</h3>
+            <p>Технология IPS, IPS2, и IPS3 Lund исключительная обеспечивает бесподобный контроль и более
+              ровную, более сухую езду.</p>
+            <hr>
+          </div>
+        </div>
+        <div class="blockContentAdvantageLund">
+          <div class="descriptionAdvantageLund">
+            <h3>Непревзойденная производительность</h3>
+            <p>Технология IPS, IPS2, и IPS3 Lund исключительная обеспечивает бесподобный контроль и более
+              ровную, более сухую езду.</p>
+            <hr>
+          </div>
+          <img src="./image/banners/banner-advantage.jpg" alt="">
+        </div>
+      </div>
+    </section>
+    <section class="materialLund">
+      <h2>Высококачественные<br>материалы</h2>
+      <div class="contentMaterialLund">
+        <div class="blockcontentMaterialLund">
+          <div>
+            <span>Алюминий</span>
+            <p>Lund использует алюминий 5052 H 34, самый прочный в индустрии. Он предлагает идеальный баланс
+              между прочностью, весом, твердостью и гибкостью</p>
+          </div>
+          <img src="./image/banners/materialLund.png" alt="">
+        </div>
+        <div class="blockcontentMaterialLund">
+          <img src="./image/banners/material-lund-2.png" alt="">
+          <div>
+            <span>Стекловолокно</span>
+            <p>
+              Прессформы точности начатые Lund дают нашим шлюпкам стеклоткани истинную прямоту внутри составная
+              структура стеклоткани, обеспечивают стойкость и последовательность в представлении.
+            </p>
+          </div>
+        </div>
+        <div class="blockcontentMaterialLund">
+          <div>
+            <span>Пригонка</span>
+            <p>
+              От наших автомобильных финишей краски к нашей установке ковра, вы можете отдохнуть уверенный ваше Лунд
+              повернет головы сезон за сезоном.
+            </p>
+          </div>
+          <img src="./image/banners/material-lund-3.png" alt="">
+        </div>
+      </div>
+    </section>
+    <section class="advantageLund">
+      <div class="contentadvantageLund">
+        <div class="blockContentAdvantageLund">
+          <div class="videoInadvantageLund bcgrVideoInadvantageLund1">
+            <div class="playBtnInAdvantageLund"></div>
+          </div>
+          <div class="iframe-container">
+            <div class="videoIframe">
+              <iframe class="myvideo" width="560" height="315"
+                src="https://www.youtube.com/embed/OntDbZwFmhk?enablejsapi=1" frameborder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+              </iframe>
+            </div>
+          </div>
+          <div class="descriptionAdvantageLund">
+            <h3>LUND’S NEW HDP COMPOSITE TRANSOM</h3>
+            <p>Fit & Finish. IPS Hulls. Storage. High Resale.
+              From day one this is what Lund prides itself on and what separates Lund from the
+              competition. Take a look at what benefits come along with owning a Lund.</p>
+            <hr>
+          </div>
+        </div>
+        <div class="blockContentAdvantageLund">
+          <div class="descriptionAdvantageLund">
+            <h3>F.I.S.H.</h3>
+            <p>Lund introduces its new High-Density Performance (HDP) composite transoms. HDP transoms are a
+              rot proof alternative to marine plywood with the additional benefits of being stronger,
+              stiffer and lighter. This all translates into increased boat performance under a range of
+              conditions.
+            </p>
+            <hr>
+          </div>
+          <div class="videoInadvantageLund bcgrVideoInadvantageLund2">
+            <div class="playBtnInAdvantageLund"></div>
+          </div>
+          <div class="iframe-container">
+            <div class="videoIframe">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/9gbsE_a-j6U?enablejsapi=1"
+                frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="advantageLund bcgadvantageLund">
+      <div class="contentadvantageLund">
+        <div class="blockContentAdvantageLund">
+          <div style="max-width: 565px; width: 100%; height: 400px; flex-shrink: 0; margin-right: 113px;"></div>
+          <div class="descriptionAdvantageLund bcgdescriptionAdvantageLund">
+            <h3>LUND’S NEW HDP COMPOSITE TRANSOM</h3>
+            <p>Fit & Finish. IPS Hulls. Storage. High Resale.
+              From day one this is what Lund prides itself on and what separates Lund from the
+              competition. Take a look at what benefits come along with owning a Lund.</p>
+            <hr>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="advantageLund">
+      <div class="contentadvantageLund">
+        <div class="blockContentAdvantageLund">
+          <div class="videoInadvantageLund bcgrVideoInadvantageLund3">
+            <div class="playBtnInAdvantageLund"></div>
+          </div>
+          <div class="iframe-container">
+            <div class="videoIframe">
+              <iframe class="myvideo" width="560" height="315"
+                src="https://www.youtube.com/embed/lieYqjFnrSY?enablejsapi=1" frameborder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+              </iframe>
+            </div>
+          </div>
+          <div class="descriptionAdvantageLund">
+            <h3>LUND’S NEW HDP COMPOSITE TRANSOM</h3>
+            <p>Fit & Finish. IPS Hulls. Storage. High Resale.
+              From day one this is what Lund prides itself on and what separates Lund from the
+              competition. Take a look at what benefits come along with owning a Lund.</p>
+            <hr>
+          </div>
+        </div>
+      </div>
+    </section>
+    </div>
+    <div class="professionalHelp">
+      <h2>Есть вопросы по качеству LUND?</h2>
+      <p>Будем рады ответить на все ваши вопросы и помочь с выбором!</p>
+      <div>
+        <form id='professionalhelp' action="">
+          <input type="text" name="name" placeholder="Имя">
+          <input type="tel" name="telephone-num" placeholder="Телефон">
+          <button>ОТПРАВИТЬ</button>
+        </form>
+      </div>
+    </div>
+    <footer>
+      <div class="contentFooter">
+        <div class="halfFooter">
+          <div class="logoFooter">
+            <img src="./image/logo_lund.png" alt="logo">
+          </div>
+          <div class="menuFooter">
+            <ul>
+              <li class="menu-link"><a href="#boatLund">Модельный ряд</a></li>
+              <li class="menu-link"><a href="#specOfferBoats">Спецпреложения</a></li>
+              <li class="menu-link"><a href="#advantageLund">Почему LUND</a></li>
+              <li class="menu-link"><a href="/contacts.html">Конткты</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="contactFooter">
+          <span>8 495 476 45 54</span>
+          <div>
+            <img src="./image/logo/logo_vk.png" alt="vk">
+            <img src="./image/logo/logo_fb.png" alt="fb">
+            <img src="./image/logo/logo_inst.png" alt="inst">
+          </div>
+        </div>
+        <div class="mailFooter">
+          <p>Будьте в курсе новостей и спецпредложений</p>
+          <form id="mailFotter" action="">
+            <input type="email" placeholder="E-mail">
+            <button><img src="./image/logo/arrow_button.svg" alt=""></button>
+          </form>
+        </div>
+      </div>
+      <!-- <p>P.S.&#8195;Lund + Boatlab.pro = &#10084;</p> -->
+
+    </footer>
+  </section>
+
+  <script src="./libs/mixitup/mixitup.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"
+    integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="./js/script.js"></script>
+  <script type="text/javascript" src="./libs/owlcarusel2/owl.carousel.min.js"></script>
+</body>
+
+</html>
